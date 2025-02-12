@@ -35,9 +35,3 @@ c = alt.Chart(df2).mark_circle().encode(
      x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
 st.write(c)
 
-st.write("Un nouveau dashhh  : ")
-
-gph = plt.scatter(np.array([1, 2, 3, 4]), np.array([10, 20, 30, 40]) )
-
-st.write(gph)
-
